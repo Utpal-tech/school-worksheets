@@ -1,5 +1,4 @@
 #WAP to input a number of seconds and prints it is form: (Min : Sec)
-#WAP to input three numbers and display them on different lines by using single print statement.
 def calculate():
     try:
         time = int(input("Enter time in second: "))
