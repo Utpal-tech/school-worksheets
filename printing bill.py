@@ -26,7 +26,7 @@ def bill():
         print("-"*a)
         print("Item", " "*15, "Unit Price", " "*5, "Quantity", " "*5, "Value")
         print("-"*a)
-        print(Item," "*18, unitPrice, " "*10, quantity, " "*10, value)
+        print(" "*18, unitPrice, " "*10, quantity, " "*10, value,"\r",Item)
         print("Tax:", " "*48, tax)
         print("-"*a)
         print("Amount Payable:", " "*37, total)
