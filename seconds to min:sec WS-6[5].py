@@ -1,4 +1,4 @@
-#WAP to input a number of seconds and prints it is form: (Min : Sec)
+#WAP to input the number of seconds and prints it in form: (Min : Sec)
 def calculate():
     try:
         time = int(input("Enter time in second: "))
