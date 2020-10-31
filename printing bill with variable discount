@@ -1,0 +1,16 @@
+item = input("Enter item name: ")
+price = float(input("enter item price: "))
+quantity = float(input("enter quantity: "))
+totalAmount = price*quantity
+if totalAmount >=1000:
+    discount=15/100*totalAmount
+elif totalAmount>=800:
+    discount=10/100*totalAmount
+elif totalAmount>=500:
+    discount=5/100*totalAmount
+else:
+    discount = 0
+payableAmouont = totalAmount-discount
+print("total amount is",totalAmount)
+print("discount is",discount)
+print("payable amount is",payableAmouont)
