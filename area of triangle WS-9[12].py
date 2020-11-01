@@ -1,6 +1,5 @@
 #WAP to input the side of a triangle (a, b & c) and calculate
 # its area by using the formula given Area= square root of (s* (s-a)*(s-b)*(s-c)), where s= (a+b+c)/2.
-#WAP to enter a three digit number and print its digit it in reverse order.
 print("This program takes the length of three side of a triangle as input and prints its area\n")
 
 def calculate():
